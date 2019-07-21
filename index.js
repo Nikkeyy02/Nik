@@ -80,4 +80,4 @@ bot.on('guildMemberRemove', member => {
     console.log(`${member.user.tag} Just left`)
 });
 
-bot.login(config.token)
+bot.login(process.env.BOT_TOKEN)
